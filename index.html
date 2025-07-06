@@ -5,47 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>仮想通貨ブログ</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
         body {
-            font-family: sans-serif;
-            line-height: 1.6;
+            font-family: 'Noto Sans JP', sans-serif;
+            line-height: 1.8;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .header {
+            background-image: url('https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: -2rem auto 2rem;
+            padding: 2rem;
             background: #fff;
-            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
-        h1, h2, h3 {
-            color: #333;
-        }
-        h1 {
-            border-bottom: 2px solid #333;
+        h2, h3 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #eee;
             padding-bottom: 10px;
         }
         .post {
-            margin-bottom: 20px;
+            margin-bottom: 2rem;
+        }
+        .post p {
+            margin-bottom: 1rem;
+        }
+        .post-meta {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        ol {
+            padding-left: 1.5rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>仮想通貨ブログ</h1>
-        </header>
+    <header class="header">
+        <h1>仮想通貨の世界へようこそ</h1>
+    </header>
 
+    <div class="container">
         <main>
             <article class="post">
                 <h2>ビットコインとアルトコインの違いを徹底解説！</h2>
-                <p>2025年7月6日</p>
+                <p class="post-meta">2025年7月6日</p>
 
                 <h3>ビットコインとは？</h3>
                 <p>
-                    ビットコイン（Bitcoin）は、2009年に「サトシ・ナカモト」と名乗る謎の人物またはグループによって作られた、世界で最初の仮想通貨です。ブロックチェーンという技術を基盤にしており、中央集権的な管理者（国や銀行など）なしに、個人間で直接価値をやり取りできる「分散型のデジタル通貨」として誕生しました。その希少性や知名度から、しばしば「デジタルゴールド」とも呼ばれ、価値の保存手段としての役割も期待されています。
+                    ビットコイン（Bitcoin）は、2009年に「サトシ・ナカモト」と名乗る謎の人物またはグループによって作られた、世界で最初の仮想通貨です。ブロックチェーンという技術を基盤にしており、中央集権的な管理者（国や銀行など）なしに、個人間で直接価値をやり取りできる「分散型のデジタル通貨」として誕生しました。
+                </p>
+                <p>
+                    <strong>発行上限と希少性:</strong> ビットコインの最大の特徴の一つは、その発行上限がプログラムによって2,100万枚に定められていることです。これにより、無限に発行される法定通貨とは異なり、希少性が担保されています。この仕組みから、ビットコインはしばしば「デジタルゴールド」と呼ばれます。
+                </p>
+                <p>
+                    <strong>インフレヘッジとしての役割:</strong> 金（ゴールド）がインフレーション（物価の上昇）に対する価値の保存手段として機能するように、発行上限のあるビットコインも同様の役割を期待されています。法定通貨の価値が下がると、相対的にビットコインの価値が上がる傾向にあります。
                 </p>
 
                 <h3>アルトコインとは？</h3>
@@ -77,7 +109,7 @@
 
                 <h3>まとめ</h3>
                 <p>
-                    ビットコインは仮想通貨の元祖であり、市場の基軸となっています。一方で、アルトコインはビットコインを改良したり、異なる機能を持たせたりすることで、多様な可能性を秘めています。仮想通貨への投資や学習を行う際は、この基本的な違いを理解しておくことが非常に重要です。
+                    ビットコインは仮想通貨の元祖であり、その希少性から「デジタルゴールド」としての地位を確立しています。一方で、アルトコインはビットコインを改良したり、異なる機能を持たせたりすることで、多様な可能性を秘めています。仮想通貨への投資や学習を行う際は、この基本的な違いを理解しておくことが非常に重要です。
                 </p>
             </article>
         </main>
